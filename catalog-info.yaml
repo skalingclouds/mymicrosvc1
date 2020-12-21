@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: microapp
+  description: mysamplemicroapp
+  annotations: 
+    github.com/project-slug: skalingclouds/mymicrosvc1
+    backstage.io/github-actions-id: skalingclouds/mymicrosvc1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: chris
